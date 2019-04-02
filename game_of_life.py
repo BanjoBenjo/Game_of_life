@@ -30,7 +30,7 @@ def render(state):
         print('| ' , end = '')
 
         for element in row:
-            if element == 1: cell = '#'
+            if element == 1: cell = u"\u2588"
             else: cell = ' '
 
             print (cell, end = '')
