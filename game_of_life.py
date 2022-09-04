@@ -106,4 +106,4 @@ if __name__ == "__main__":
         render(state)
         state = next_board_state(state)
         #time.sleep(.1)
-        os.system("cls")
+        os.system("clear")

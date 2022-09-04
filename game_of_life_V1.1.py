@@ -22,9 +22,8 @@ def random_state(width, height):
     return state
 
 
-
 def render(state):
-
+    os.system('clear')
     print('-'* (len(state[0]) + 4) ) # width board + " |  | " (borders)
     for row in state:
         print('| ' , end = '')
